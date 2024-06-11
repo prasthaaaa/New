@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Screen</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Welcome</h2>
+        <div class="input-group">
+            <input type="email" id="email" placeholder="Email">
+            <div class="error-message" id="email-error">Invalid email</div>
+        </div>
+        <div class="input-group">
+            <input type="password" id="password" placeholder="Password">
+            <div class="error-message" id="password-error">Invalid password</div>
+        </div>
+        <button class="btn" onclick="validateLogin()">Login</button>
+        <div class="success-message" id="login-success">Login successful</div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
